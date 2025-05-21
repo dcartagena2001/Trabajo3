@@ -35,6 +35,8 @@ execute:
 
 # Punto 1
 
+![Punto1](Punto1.png)
+
 ```{python}
 class Cuenta:
     """
@@ -195,8 +197,6 @@ if __name__ == "__main__":
     cuenta_ahorros.extracto_mensual()
     cuenta_ahorros.imprimir()
 ```
-
-
 
 # Punto 2
 
@@ -403,6 +403,8 @@ if __name__ == "__main__":
 
 # Punto 2
 
+![Punto 2](Punto2.png)
+
 ```{python}
 class Inmueble:
     """
@@ -607,7 +609,6 @@ if __name__ == "__main__":
     casa_conjunto.imprimir()
 ```
 
-
 # Punto 3
 
 ```{python}
@@ -705,9 +706,9 @@ print(f"{perro.nombre}, {perro.edad} años, color {perro.color}, muerde: {perro.
 print(f"{gato.nombre}, salta {gato.altura_salto}m de alto y mide {gato.longitud_salto}m de largo")
 ```
 
-
 # Punto 4
 
+![Punto 4](Punto3.png)
 
 ```{python}
 # Clase base
@@ -781,29 +782,13 @@ print("Dirección:", est.getDireccion())
 print("Carrera:", est.getCarrera())
 print("Semestre:", est.getSemestre())
 
-# Modificar semestre
-est.setSemestre(4)
-print("Semestre actualizado:", est.getSemestre())
-
-print()
-
-# Crear un profesor
-prof = Profesor("Dr. Luis Pérez", "Av. Principal 456", "Matemáticas", "Titular")
-
-# Acceder a sus datos
-print("Profesor:")
-print("Nombre:", prof.getNombre())
-print("Dirección:", prof.getDireccion())
-print("Departamento:", prof.getDepartamento())
-print("Categoría:", prof.getCategoria())
-
-# Cambiar categoría
-prof.setCategoria("Asociado")
-print("Categoría actualizada:", prof.getCategoria())
 ```
 
-
 # Punto 5
+
+![Punto5](Punto5.png)
+
+# 
 
 ```{python}
 class Profesor:
@@ -830,5 +815,3 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
-
